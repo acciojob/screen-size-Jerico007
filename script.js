@@ -5,5 +5,5 @@ function getSize() {
   let h = document.documentElement.clientHeight;
 
   document.getElementById("sizeInfo").innerHTML =
-    "<h1>Width: " + w + " and " + " Heigth: " + h + "</h1>";
+    "Width: " + w + " and " + " Heigth: " + h;
 }
