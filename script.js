@@ -1,9 +1,9 @@
 //your JS code here. If required.
-function getSize() {
-  let w = document.documentElement.clientWidth;
-
-  let h = document.documentElement.clientHeight;
-
-  document.getElementById("sizeInfo").innerHTML =
-    "Width: " + w + " and " + " Heigth: " + h;
+function getSize()
+{
+var w = document.documentElement.clientWidth;
+var h = document.documentElement.clientHeight;
+        
+// put the result into a h1 tag
+ document.getElementById('sizeInfo').innerHTML = "<h1>Width: " + w + " â€¢ Height: " + h + "</h1>";
 }
